@@ -52,6 +52,7 @@ public class testNGtest {
 
     }
 
+    @Test
     public void verifyOurLocationsCountryListForAustralia() {
 
         List<WebElement> actualAddress = driver.findElement(By.XPATH("//p[@class='cmp-location__location__address']"));
@@ -76,6 +77,7 @@ public class testNGtest {
         }
     }
 
+    @Test
     public void verifyOurLocationsCountryListForAsia() {
 
         List<WebElement> actualAddress = driver.findElement(By.XPATH("//p[@class='cmp-location__location__address']"));
